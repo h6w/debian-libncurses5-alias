@@ -3,7 +3,7 @@ Builds a very simple package that pretends that libncurses5 is installed.
 
 Once upon a time, libncurses was packaged in Debian / Ubuntu / Whatever as "libncurses".
 
-At some point, it reached version 5.   Since it was possible to have both versions installed on the same machine, and libncurse5 was quite different, the new package was called libncurses5.
+At some point, it reached version 5.   Since it was possible to have both versions installed on the same machine, and version 5 was quite different, the new package was called libncurses5.
 
 When libncurses reached version 6, it stayed as libncurses5 for many years for backward compatibility, and apt would even select "libncurses5 (>= 6.0.0)".
 
