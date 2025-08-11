@@ -1,0 +1,12 @@
+Package: libncurses5
+Version: 6.0.0-1
+Architecture: all
+Maintainer: Un Maintained <un@maintain.ed>
+Installed-Size: 10
+Depends: libncurses6 (>= 6.0.0)
+Section: libs
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: Alias for libncurses6
+ Some older packages rely on the package name "libncurses5" verison 6, which is now called "libncurses6".
+ This is the package to allow them to install.

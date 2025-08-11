@@ -1,0 +1,17 @@
+Source: libncurses5
+Section: libs
+Priority: optional
+Maintainer: Un Maintained <un@maintain.ed>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.7.2
+Homepage: <insert the upstream URL, if relevant>
+
+Package: libncurses5
+Architecture: all
+Depends:
+ ${misc:Depends}, libncurses6 (>= 6.0.0)
+Description: Alias for libncurses6
+ Some older packages rely on the package name "libncurses5" verison 6, which is now called "libncurses6".
+ This is the package to allow them to install.
