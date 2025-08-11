@@ -18,7 +18,12 @@ And they all ran happily ever after.
 ...... except ......
 
 You still need to symlink:
+```
 ln -s /usr/lib/i386-linux-gnu/libncurses.so.6 /usr/lib/i386-linux-gnu/libncurses.so.5
 ln -s /usr/lib/x86_64-linux-gnu/libncurses.so.6 /usr/lib/x86_64-linux-gnu/libncurses.so.5
+```
 
 THE END
+
+
+*** There's a prebuilt deb file in the releases.
